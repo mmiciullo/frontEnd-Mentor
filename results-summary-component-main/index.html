@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <section>
+      <article class="results">
+        <h2 class="title result-title">Your Result</h2>
+        <div class="circle">
+          <p><span class="bold">76 </span> of 100</p>
+        </div>
+        <h3 class="title">Great</h3>
+        <p>
+          You scored higher than 65% of the people who have taken these tests
+        </p>
+      </article>
+      <article class="summary">
+        <h2 class="title summaryTitle">Summary</h2>
+        <div class="content">
+          <div class="flex bg-primary">
+            <img src="assets/images/icon-reaction.svg" alt="reaction-image" />
+            <p class="reaction flex-start">
+              Reaction
+              <span class="content-end"
+                ><span class="first-number">80</span>/ 100</span
+              >
+            </p>
+          </div>
+          <div class="flex bf-memory">
+            <img src="assets/images/icon-memory.svg" alt="memory-image" />
+            <p class="memory flex-start">
+              Memory
+              <span class="content-end">
+                <span class="first-number">92</span> / 100</span
+              >
+            </p>
+          </div>
+          <div class="flex bg-verbal">
+            <img src="assets/images/icon-verbal.svg" alt="verbal-image" />
+            <p class="verbal flex-start">
+              Verbal
+              <span class="content-end">
+                <span class="first-number">61</span> / 100</span
+              >
+            </p>
+          </div>
+          <div class="flex bg-visual">
+            <img src="assets/images/icon-visual.svg" alt="visual-image" />
+            <p class="visual flex-start">
+              Visual
+              <span class="content-end">
+                <span class="first-number">72</span> / 100</span
+              >
+            </p>
+          </div>
+        </div>
+        <button type="submit">Continue</button>
+      </article>
+    </section>
+  </body>
+</html>
